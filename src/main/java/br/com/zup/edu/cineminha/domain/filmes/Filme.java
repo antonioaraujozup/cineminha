@@ -1,4 +1,4 @@
-package br.com.zup.edu.cineminha.model;
+package br.com.zup.edu.cineminha.domain.filmes;
 
 import javax.persistence.Entity;
 import javax.persistence.Enumerated;

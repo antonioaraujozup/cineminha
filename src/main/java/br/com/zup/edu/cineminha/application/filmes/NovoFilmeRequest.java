@@ -1,14 +1,15 @@
-package br.com.zup.edu.cineminha.controller.input;
+package br.com.zup.edu.cineminha.application.filmes;
 
-import br.com.zup.edu.cineminha.model.Classificacao;
-import br.com.zup.edu.cineminha.model.Filme;
+import br.com.zup.edu.cineminha.domain.filmes.Classificacao;
+import br.com.zup.edu.cineminha.domain.filmes.DadosNovoFilme;
+import br.com.zup.edu.cineminha.domain.filmes.Filme;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 import java.time.Duration;
 
-public class NovoFilmeRequest {
+public class NovoFilmeRequest implements DadosNovoFilme {
 
     @NotBlank
     private String nome;

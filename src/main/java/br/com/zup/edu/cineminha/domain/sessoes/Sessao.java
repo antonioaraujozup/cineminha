@@ -1,6 +1,7 @@
-package br.com.zup.edu.cineminha.model;
+package br.com.zup.edu.cineminha.domain.sessoes;
 
-import br.com.zup.edu.cineminha.domain.Sala;
+import br.com.zup.edu.cineminha.domain.filmes.Filme;
+import br.com.zup.edu.cineminha.domain.salas.Sala;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
